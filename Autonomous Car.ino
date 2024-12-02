@@ -80,7 +80,7 @@ void loop(){
 forward();
 
 }
-/*
+
 int irr_state=digitalRead(irr);
 int irm_state=digitalRead(irm);
 int irl_state=digitalRead(irl);
@@ -96,11 +96,6 @@ else if(irr_state==1 && irm_state==0 && irl_state==0){
 else if(irr_state==0 && irm_state==0 && irl_state==0){
   forward();
 }
-
-
-*/
-
-/*
   
   sl=digitalRead(sensorl);
   sr=digitalRead(sensorr);
@@ -116,4 +111,3 @@ else if(irr_state==0 && irm_state==0 && irl_state==0){
   if(sl==1 && sr==1){
     stopp();
   }
-*/
